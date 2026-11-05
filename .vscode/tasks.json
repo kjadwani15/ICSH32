@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ICS H32 Project Setup",
+      "detail": "Sets up everything you'll need to begin your work",
+      "type": "shell",
+      "command": "./setup.sh",
+      "windows": {
+        "command": ".\\setup.bat"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "clear": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "chat.disableAIFeatures": true,
+  "python.languageServer": "Pylance",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnusedImport": "warning"
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.terminal.shellIntegration.enabled": false,
+  "python.testing.unittestEnabled": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestArgs": ["-v", "-s", ".", "-p", "test_*.py"],
+  "testing.coverageToolbarEnabled": true,
+  "testing.showCoverageInExplorer": true,
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}${separator}"
+}
