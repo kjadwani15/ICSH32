@@ -1,5 +1,5 @@
 {
-  "chat.disableAIFeatures": true,
+  "chat.disableAIFeatures": false,
   "python.languageServer": "Pylance",
   "python.analysis.diagnosticSeverityOverrides": {
     "reportUnusedImport": "warning"
