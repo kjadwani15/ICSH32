@@ -12,5 +12,6 @@
   "python.testing.unittestArgs": ["-v", "-s", ".", "-p", "test_*.py"],
   "testing.coverageToolbarEnabled": true,
   "testing.showCoverageInExplorer": true,
-  "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}${separator}"
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}${separator}",
+  "python-envs.defaultEnvManager": "ms-python.python:system"
 }

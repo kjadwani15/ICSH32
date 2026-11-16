@@ -25,7 +25,7 @@ def coordinate_format(latitiude: float, longitude: float) -> tuple[str, str]:
     else:
         coord_long = f'{longitude}/E'
     return (coord_lat, coord_long)
-def polygon_centroid(NWS_coords: list[list[float, float]]) -> tuple[float, float]:
+def polygon_centroid(NWS_coords: list[list[float]]) -> tuple[float, float]:
     no_dup = set()
     total_x=0
     total_y=0
